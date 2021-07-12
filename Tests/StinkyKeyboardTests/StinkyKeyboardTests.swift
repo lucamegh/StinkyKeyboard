@@ -1,11 +1,10 @@
-    import XCTest
-    @testable import StinkyKeyboard
+/**
+ * StinkyKeyboard
+ * Copyright (c) Luca Meghnagi 2021
+ * MIT license, see LICENSE file for details
+ */
 
-    final class StinkyKeyboardTests: XCTestCase {
-        func testExample() {
-            // This is an example of a functional test case.
-            // Use XCTAssert and related functions to verify your tests produce the correct
-            // results.
-            XCTAssertEqual(StinkyKeyboard().text, "Hello, World!")
-        }
-    }
+import XCTest
+@testable import StinkyKeyboard
+
+final class StinkyKeyboardTests: XCTestCase {}
