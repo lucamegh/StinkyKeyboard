@@ -21,7 +21,7 @@ let package = Package(
 1. Wrap your view controller into a keyboard avoiding one:
 ```swift
 let loginVC = KeyboardAvoidingViewController(content: LoginViewController())
-navigationController.push(loginVC, animated: true)
+navigationController.pushViewController(loginVC, animated: true)
 ```
 
 2. There's no step 2!
