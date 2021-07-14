@@ -7,7 +7,7 @@
 import UIKit
 import UIKitHelpers
 
-public class KeyboardAvoidingViewController<Content: UIViewController>: UIViewController {
+public final class KeyboardAvoidingViewController<Content: UIViewController>: UIViewController {
     
     public let content: Content
         
