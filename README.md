@@ -18,7 +18,7 @@ let package = Package(
 
 ## Usage
 
-1. Wrap your view controller into a keyboard avoiding one:
+1. Wrap your view controller in a keyboard avoiding view controller:
 ```swift
 let loginVC = KeyboardAvoidingViewController(content: LoginViewController())
 navigationController.pushViewController(loginVC, animated: true)
